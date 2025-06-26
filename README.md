@@ -82,7 +82,7 @@ Repository ini berisi:
 
 ### Cara Clone dan Gunakan
 ```bash
-git clone https://github.com/gianrofiqri/dashboard
+git clone https://github.com/gianrofiqri/dashboard.git
 cd dashboard
 pip install -r requirements.txt
 streamlit run Dashboard.py
