@@ -57,7 +57,7 @@ pip install streamlit pandas plotly
 
 ### Jalankan Dashboard
 ```bash
-streamlit run app.py
+streamlit run Dashboard.py
 ```
 
 ### Akses Dashboard
@@ -75,17 +75,17 @@ Sistem Informasi,P,Bidik Misi,Tidak Lulus
 ## GitHub Repository
 
 Repository ini berisi:
-- `app.py`: File utama dashboard
+- `Dashboard.py`: File utama dashboard
 - `requirements.txt`: Dependencies
 - `README.md`: Dokumentasi
 - `data_sample.csv`: Contoh format data
 
 ### Cara Clone dan Gunakan
 ```bash
-git clone https://github.com/[username]/dashboard-universitas.git
-cd dashboard-universitas
+git clone https://github.com/gianrofiqri/dashboard
+cd dashboard
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run Dashboard.py
 ```
 
 ---
