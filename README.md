@@ -7,7 +7,7 @@ Dashboard interaktif untuk menganalisis data mahasiswa dan program studi menggun
 ### Pengguna Utama
 - **Lembaga Pengembangan Universitas**: Untuk evaluasi program studi
 - **Staf Administrasi**: Untuk monitoring dan pelaporan
-- ** Dekan**: Monitoring tingkat kelulusan per program studi dalam fakultas 
+- **Dekan**: Monitoring tingkat kelulusan per program studi dalam fakultas 
 
 ## B. Perancangan Dashboard
 
