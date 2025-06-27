@@ -65,11 +65,11 @@ Buka browser: `http://localhost:8501`
 
 ## Format Data
 
-File `Data mahasiswa.csv` harus berisi:
+File `Data mahasiswa.csv` berisi:
 ```csv
 Pilihan 1,JK,bidikmisi,Lulus pada Prodi
 Teknik Informatika,L,Reguler,Lulus
-Sistem Informasi,P,Bidik Misi,Tidak Lulus
+Sistem Informasi,P,Bidikmisi,Tidak Lulus
 ```
 
 ## GitHub Repository
@@ -78,7 +78,7 @@ Repository ini berisi:
 - `Dashboard.py`: File utama dashboard
 - `requirements.txt`: Dependencies
 - `README.md`: Dokumentasi
-- `data_sample.csv`: Contoh format data
+- `Data mahasiswa.csv`: Format data
 
 ### Cara Clone dan Gunakan
 ```bash
@@ -90,6 +90,6 @@ streamlit run Dashboard.py
 
 ---
 
-**Link Repository**: https://github.com/[username]/dashboard-universitas
+**Link Repository**: https://github.com/gianrofiqri/dashboard.git
 
 ⭐ Dashboard siap digunakan untuk analisis data akademik!
