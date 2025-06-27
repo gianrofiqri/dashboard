@@ -148,8 +148,7 @@ def main():
         
         jk_options = ['Semua', 'Laki-laki', 'Perempuan']
         selected_jk = st.sidebar.selectbox("Pilih Jenis Kelamin:", jk_options)
-        
-        # Mapping untuk menampilkan "Bidikmisi" instead of "Bidik Misi"
+       
         bidikmisi_raw = sorted(df['bidikmisi'].unique().tolist())
         bidikmisi_display = []
         bidikmisi_mapping = {}
@@ -166,7 +165,6 @@ def main():
         bidikmisi_options = ['Semua'] + bidikmisi_display
         selected_bidikmisi_display = st.sidebar.selectbox("Jenis Pendanaan:", bidikmisi_options)
         
-        # Convert back to original value for filtering
         if selected_bidikmisi_display == 'Semua':
             selected_bidikmisi = 'Semua'
         else:
