@@ -1,20 +1,13 @@
-# Dashboard Analisis Program Studi Universitas 🎓
+# Dashboard Analisis Program Studi Universitas 
 
 Dashboard interaktif untuk menganalisis data mahasiswa dan program studi menggunakan Streamlit.
 
 ## A. Penentuan Kebutuhan
 
 ### Pengguna Utama
-- **Rektorat**: Untuk pengambilan keputusan strategis
-- **Dosen**: Untuk evaluasi program studi
+- **Lembaga Pengembangan Universitas**: Untuk evaluasi program studi
 - **Staf Administrasi**: Untuk monitoring dan pelaporan
-- **Publik**: Untuk transparansi informasi akademik
-
-### Kebutuhan Informasi
-- Distribusi mahasiswa per program studi
-- Tingkat kelulusan setiap program
-- Analisis berdasarkan jenis kelamin dan pendanaan
-- Data untuk evaluasi kualitas pendidikan
+- ** Dekan**: Monitoring tingkat kelulusan per program studi dalam fakultas 
 
 ## B. Perancangan Dashboard
 
@@ -67,9 +60,9 @@ Buka browser: `http://localhost:8501`
 
 File `Data mahasiswa.csv` berisi:
 ```csv
-Pilihan 1,JK,bidikmisi,Lulus pada Prodi
-Teknik Informatika,L,Reguler,Lulus
-Sistem Informasi,P,Bidikmisi,Tidak Lulus
+nomor_pendaftaran, JK, bidikmisi, Sekolah, Kabupaten, Provinsi, Pilihan 1, Pilihan 2, Ranking Sekolah, Nilai Mapel UN, Lulus pada Prodi, Lulus Pilihan, X1, X2, X3, X4, X5, X6, X7, X8, X9, XT, IP Sem 1, IP Sem 2, Predikat, Semester 1, Predikat Semester 2.
+
+https://www.kaggle.com/datasets/achilham/data-mahasiswa?utm_source=chatgpt.com
 ```
 
 ## GitHub Repository
