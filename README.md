@@ -92,4 +92,3 @@ streamlit run Dashboard.py
 
 **Link Repository**: https://github.com/gianrofiqri/dashboard.git
 
-⭐ Dashboard siap digunakan untuk analisis data akademik!
